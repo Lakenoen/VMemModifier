@@ -18,7 +18,7 @@ public class SearchAlgorithms
         try
         {
             if (pattern.Count == 0)
-                throw new ArgumentException("Pattern should not be empty");
+                return results;
 
             int[] map = new int[ALFSIZE];
 
