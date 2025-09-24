@@ -38,7 +38,7 @@ public class Log
 #if DEBUG
             LogLevel.Debug
 #else
-            LogLevel.Error
+            LogLevel.Information
 #endif
             ));
     }

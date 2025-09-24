@@ -2,7 +2,7 @@
   "profiles": {
     "VMemReaderConsole": {
       "commandName": "Project",
-      "commandLineArgs": "help -name dump"
+      "commandLineArgs": "search 13384 \"radmin\" -utf8"
     }
   }
 }

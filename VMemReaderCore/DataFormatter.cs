@@ -73,7 +73,7 @@ public static class DataFormatter
         Format.FLOAT => decFormat(data, Format.FLOAT),
         Format.SHORT => decFormat(data, Format.SHORT),
         Format.BYTE => decFormat(data, Format.BYTE),
-        _ => new Data()
+        _ => new Data(Encoding.UTF8, data)
     };
 
     private static string hexFormat(Data data)

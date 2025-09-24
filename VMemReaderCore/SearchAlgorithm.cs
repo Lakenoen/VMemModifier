@@ -15,34 +15,43 @@ public class SearchAlgorithms
     public static HashSet<long> bmSearch(in List<byte> text, in List<byte> pattern)
     {
         HashSet<long> results = new HashSet<long>();
-
-        int[] map = new int[ALFSIZE];
-
-        for (int i = 0; i < ALFSIZE; ++i)
-            map[i] = -1;
-
-        for (int i = 0; i < pattern.Count; ++i)
-            map[pattern[i]] = i;
-
-        int shift = 0;
-
-        while (shift <= (text.Count - pattern.Count))
+        try
         {
-            int j = pattern.Count - 1;
+            if (pattern.Count == 0)
+                throw new ArgumentException("Pattern should not be empty");
 
-            while (j >= 0 && pattern[j] == text[shift + j])
-                --j;
+            int[] map = new int[ALFSIZE];
 
-            if (j < 0)
+            for (int i = 0; i < ALFSIZE; ++i)
+                map[i] = -1;
+
+            for (int i = 0; i < pattern.Count; ++i)
+                map[pattern[i]] = i;
+
+            int shift = 0;
+
+            while (shift <= (text.Count - pattern.Count))
             {
-                results.Add(shift);
-                shift += (shift + pattern.Count < text.Count) ? pattern.Count - map[text[shift + pattern.Count]] : 1;
-            }
-            else
-            {
-                shift += int.Max(1, map[text[shift + j]]);
-            }
+                int j = pattern.Count - 1;
 
+                while (j >= 0 && pattern[j] == text[shift + j])
+                    --j;
+
+                if (j < 0)
+                {
+                    results.Add((long)shift);
+                    shift += (shift + pattern.Count < text.Count) ? pattern.Count - map[text[shift + pattern.Count]] : 1;
+                }
+                else
+                {
+                    shift += int.Max(1, map[text[shift + j]]);
+                }
+
+            }
+        } catch (Exception e)
+        {
+            Log.Instance.Factory.CreateLogger<SearchAlgorithms>().LogDebug(e.Message, e.StackTrace);
+            throw;
         }
 
         return results;

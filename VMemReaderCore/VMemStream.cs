@@ -91,7 +91,7 @@ public class VMemStream : VMemStreamNative
         if (findData.data.Count >= BLOCK_SIZE / 2)
             throw new ArgumentException("The desired element should be less than block size / 2");
 
-        HashSet<long> results = new HashSet<long>();
+        List<long> results = new List<long>();
 
         forEach(BLOCK_SIZE / 2, async data =>
         {
@@ -108,7 +108,7 @@ public class VMemStream : VMemStreamNative
                 }
             });
         });
-        return results.ToList();
+        return results;
     }
 
     public List<long> find(long start, long end, Data findData)

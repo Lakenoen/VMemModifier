@@ -40,17 +40,18 @@ class SearchCommand : AbstractCommand
         if ( (base.flags & AbstractCommand.Flag.REG ) != 0)
             base.manager[id].search = SearchAlgorithms.bmSearchRegEx;
 
-        IEnumerable<long> addrs = base.manager[id].find(data);
+        List<long> addrs = base.manager[id].find(data);
 
         base.manager[id].search = SearchAlgorithms.bmSearch;
 
         if (addrs.Count() == 0)
             throw new CommandInfoException("Nothing was found");
 
-        foreach (long item in addrs)
+        for(int i = 0; i < addrs.Count; ++i)
         {
-            Console.WriteLine(getOutput(item, base.manager[id].read(item, data.data.Count)));
+            Console.WriteLine(getOutput(addrs[i], base.manager[id].read(addrs[i], data.data.Count)));
         }
+
         Console.WriteLine("Success");
     }
 

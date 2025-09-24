@@ -17,27 +17,27 @@ class Program
         }
         catch (CommandInfoException e)
         {
-            logger.LogInformation(e.Message);
+            Console.WriteLine("Info: " + e.Message);
         }
         catch (InjectionException ex)
         {
-            logger.LogError("Injection error: " + ex.Message);
+            Console.WriteLine("Fail: Injection error: " + ex.Message);
         }
         catch (FormatException ex)
         {
-            logger.LogError("Format Error or Info: The parameter is incorrectly introduced or the flags are incorrectly placed, enter -help to obtain detailed information");
+            Console.WriteLine("Fail: Format Error or Info: The parameter is incorrectly introduced or the flags are incorrectly placed, enter -help to obtain detailed information");
         }
         catch (ApplicationException e)
         {
-            logger.LogError(e.Message);
+            Console.WriteLine("Fail: " + e.Message);
         }
         catch (InvalidOperationException e)
         {
-            logger.LogError(e.Message + ", perhaps the wrong parameters were introduced");
+            Console.WriteLine("Fail: " + e.Message + ", perhaps the wrong parameters were introduced");
         }
         catch (Exception e)
         {
-            logger.LogError(e.Message);
+            Console.WriteLine("Fail: " + e.Message);
         }
     }
 }
