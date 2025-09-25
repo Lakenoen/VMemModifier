@@ -65,7 +65,7 @@ namespace VMemReaderConsole
                 strVal = "??";
             }
             StringBuilder sb = new StringBuilder();
-            sb.Append("Address: ").AppendFormat("{0:x2}", addr).Append($" Value: {strVal}\r\n");
+            sb.Append("Address: 0x").AppendFormat("{0:x2}", addr).Append($" Value: {strVal}\r\n");
             return sb.ToString();
         }
         public class Flag : DataFormatter.Format

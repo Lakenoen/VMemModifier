@@ -2,7 +2,7 @@
   "profiles": {
     "VMemReaderConsole": {
       "commandName": "Project",
-      "commandLineArgs": "ergerg"
+      "commandLineArgs": "read 13384 0x7d16fe4 4 -int"
     }
   }
 }

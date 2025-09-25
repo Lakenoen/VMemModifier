@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\code\\projects\\VMemReader\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\readcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\readcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\abstractcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\abstractcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\searchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\searchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01CA2B09-AC5F-11C4-5852-A3C181F643FE}|VMemReaderCore\\VMemReaderCore.csproj|d:\\code\\projects\\vmemreader\\vmemreadercore\\vmemreadercore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{01CA2B09-AC5F-11C4-5852-A3C181F643FE}|VMemReaderCore\\VMemReaderCore.csproj|solutionrelative:vmemreadercore\\vmemreadercore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -15,32 +35,12 @@
       "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\writecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\searchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\searchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01CA2B09-AC5F-11C4-5852-A3C181F643FE}|VMemReaderCore\\VMemReaderCore.csproj|d:\\code\\projects\\vmemreader\\vmemreadercore\\searchalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01CA2B09-AC5F-11C4-5852-A3C181F643FE}|VMemReaderCore\\VMemReaderCore.csproj|solutionrelative:vmemreadercore\\searchalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\abstractcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\abstractcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\savememdumpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\savememdumpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\readcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|solutionrelative:vmemreaderconsole\\readcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemReaderConsole\\VMemReaderConsole.csproj|d:\\code\\projects\\vmemreader\\vmemreaderconsole\\injectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -137,7 +137,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -149,20 +149,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SearchCommand.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\SearchCommand.cs",
               "RelativeDocumentMoniker": "VMemReaderConsole\\SearchCommand.cs",
               "ToolTip": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\SearchCommand.cs",
               "RelativeToolTip": "VMemReaderConsole\\SearchCommand.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAIAwwCMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAMwDMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T23:07:43.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DataFormatter.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderCore\\DataFormatter.cs",
               "RelativeDocumentMoniker": "VMemReaderCore\\DataFormatter.cs",
@@ -175,20 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WriteCommand.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\WriteCommand.cs",
-              "RelativeDocumentMoniker": "VMemReaderConsole\\WriteCommand.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\WriteCommand.cs",
-              "RelativeToolTip": "VMemReaderConsole\\WriteCommand.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAIAwwCMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T14:56:49.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CommandFactory.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\CommandFactory.cs",
               "RelativeDocumentMoniker": "VMemReaderConsole\\CommandFactory.cs",
@@ -202,32 +189,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\Program.cs",
-              "RelativeDocumentMoniker": "VMemReaderConsole\\Program.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\Program.cs",
-              "RelativeToolTip": "VMemReaderConsole\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T14:59:14.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SearchAlgorithm.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderCore\\SearchAlgorithm.cs",
-              "RelativeDocumentMoniker": "VMemReaderCore\\SearchAlgorithm.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemReaderCore\\SearchAlgorithm.cs",
-              "RelativeToolTip": "VMemReaderCore\\SearchAlgorithm.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAIAwwEYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T11:46:40.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "VMemReaderCore.csproj",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderCore\\VMemReaderCore.csproj",
               "RelativeDocumentMoniker": "VMemReaderCore\\VMemReaderCore.csproj",
@@ -244,20 +205,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "AbstractCommand.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\AbstractCommand.cs",
               "RelativeDocumentMoniker": "VMemReaderConsole\\AbstractCommand.cs",
               "ToolTip": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\AbstractCommand.cs",
               "RelativeToolTip": "VMemReaderConsole\\AbstractCommand.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAhwBAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAIAwwEMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T14:57:47.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\Program.cs",
+              "RelativeDocumentMoniker": "VMemReaderConsole\\Program.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\Program.cs",
+              "RelativeToolTip": "VMemReaderConsole\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T14:59:14.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReadCommand.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\ReadCommand.cs",
+              "RelativeDocumentMoniker": "VMemReaderConsole\\ReadCommand.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\ReadCommand.cs",
+              "RelativeToolTip": "VMemReaderConsole\\ReadCommand.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAApwBoAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T01:09:24.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WriteCommand.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\WriteCommand.cs",
+              "RelativeDocumentMoniker": "VMemReaderConsole\\WriteCommand.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\WriteCommand.cs",
+              "RelativeToolTip": "VMemReaderConsole\\WriteCommand.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIAwwCMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T14:56:49.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "SearchAlgorithm.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderCore\\SearchAlgorithm.cs",
+              "RelativeDocumentMoniker": "VMemReaderCore\\SearchAlgorithm.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemReaderCore\\SearchAlgorithm.cs",
+              "RelativeToolTip": "VMemReaderCore\\SearchAlgorithm.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAIAwwEYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T11:46:40.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SaveMemDumpCommand.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\SaveMemDumpCommand.cs",
               "RelativeDocumentMoniker": "VMemReaderConsole\\SaveMemDumpCommand.cs",
@@ -266,19 +279,6 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAiwCAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T19:21:26.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReadCommand.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\ReadCommand.cs",
-              "RelativeDocumentMoniker": "VMemReaderConsole\\ReadCommand.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemReaderConsole\\ReadCommand.cs",
-              "RelativeToolTip": "VMemReaderConsole\\ReadCommand.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAASwCwAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T01:09:24.89Z",
               "EditorCaption": ""
             },
             {
