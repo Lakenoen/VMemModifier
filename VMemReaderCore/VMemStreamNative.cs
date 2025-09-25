@@ -37,13 +37,14 @@ public abstract class VMemStreamNative
     {
         if (getInfo(id, addr) is null)
             throw new Exception("The address does not belong to the process");
+
         ulong written = 0;
         ulong error = 0;
         writeMemory(id, addr, data, data.Length, out written, out error);
-        logger.LogError("Error: Write method returned an false, code: " + Convert.ToString(error));
+
         if (written <= 0)
         {
-            //logger.LogError("Error: Write method returned an false, code: " + Convert.ToString(error));
+            Console.WriteLine("Error: Write method returned an false, code: " + Convert.ToString(error));
             return false;
         }
         return true;

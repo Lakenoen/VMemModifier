@@ -90,7 +90,7 @@ public class VMemManager
             }
             delKeys.Clear();
         } catch (Exception ex){
-            logger.LogError($"Error: There was a problem when closing the flow of virtual memory: {ex.Message}");
+            Console.WriteLine($"Error: There was a problem when closing the flow of virtual memory: {ex.Message}");
         }
     }
 

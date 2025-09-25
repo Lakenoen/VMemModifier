@@ -19,6 +19,9 @@ class Program
         catch (CommandInfoException e)
         {
             Console.WriteLine("Info: " + e.Message);
+#if DEBUG
+            logger.LogError(e.StackTrace);
+#endif
         }
         catch (InjectionException ex)
         {
