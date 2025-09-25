@@ -34,13 +34,20 @@ public class Log
 
     protected Log()
     {
-        factory = LoggerFactory.Create(builder => builder.AddConsole().AddDebug().SetMinimumLevel(
+        factory = LoggerFactory.Create(builder =>
+        {
+            builder.AddConsole();
+#if DEBUG
+            builder.AddDebug();
+#endif
+            builder.SetMinimumLevel(
 #if DEBUG
             LogLevel.Debug
 #else
             LogLevel.Information
 #endif
-            ));
+            );
+        });
     }
 
 }

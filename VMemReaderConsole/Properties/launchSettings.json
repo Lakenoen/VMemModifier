@@ -2,7 +2,7 @@
   "profiles": {
     "VMemReaderConsole": {
       "commandName": "Project",
-      "commandLineArgs": "search 13384 \"Сеть\" -str -utf8"
+      "commandLineArgs": "ergerg"
     }
   }
 }

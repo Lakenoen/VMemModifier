@@ -34,6 +34,8 @@ internal class WriteCommand : AbstractCommand
 
         string dataStr = parameters[2];
         Data? data = DataFormatter.format(dataStr, base.flags);
+        if (data == null)
+            throw new ArgumentException("Unknown flag or prohibited combination of flags");
 
         if (!this.manager[id].write(addr, data))
             throw new CommandInfoException("Failed to record data");

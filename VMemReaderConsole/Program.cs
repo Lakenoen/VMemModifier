@@ -8,6 +8,7 @@ using static VMemReaderCore.VMemStream;
 
 class Program
 {
+
     private static ILogger logger = Log.Instance.Factory.CreateLogger<Program>();
     public static void Main(string[] args)
     {
@@ -21,23 +22,40 @@ class Program
         }
         catch (InjectionException ex)
         {
-            Console.WriteLine("Fail: Injection error: " + ex.Message);
+            Console.WriteLine("Error: Injection error: " + ex.Message);
+#if DEBUG
+            logger.LogError(ex.StackTrace);
+#endif
         }
         catch (FormatException ex)
         {
-            Console.WriteLine("Fail: Format Error or Info: The parameter is incorrectly introduced or the flags are incorrectly placed, enter -help to obtain detailed information");
+            Console.WriteLine("Error: Format Error or Info: The parameter is incorrectly introduced or the flags are incorrectly placed, enter -help to obtain detailed information");
+#if DEBUG
+            logger.LogError(ex.StackTrace);
+#endif
         }
         catch (ApplicationException e)
         {
-            Console.WriteLine("Fail: " + e.Message);
+            Console.WriteLine("Error: " + e.Message);
+#if DEBUG
+            logger.LogError(e.StackTrace);
+#endif
         }
         catch (InvalidOperationException e)
         {
-            Console.WriteLine("Fail: " + e.Message + ", perhaps the wrong parameters were introduced");
+            Console.WriteLine("Error: " + e.Message + ", perhaps the wrong parameters were introduced");
+#if DEBUG
+            logger.LogError(e.StackTrace);
+#endif
         }
         catch (Exception e)
         {
-            Console.WriteLine("Fail: " + e.Message);
+            Console.WriteLine("Error: " + e.Message);
+#if DEBUG
+            logger.LogError(e.StackTrace);
+#endif
         }
+
+        Console.Out.Flush();
     }
 }

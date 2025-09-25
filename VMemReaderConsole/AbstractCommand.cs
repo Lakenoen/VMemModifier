@@ -38,7 +38,7 @@ namespace VMemReaderConsole
             "reg" => Flag.REG,
             "name" => Flag.NAME,
             "flag" => Flag.FLAG,
-            _=> throw new ArgumentException("Missing flag")
+            _=> throw new ArgumentException($"Missing flag - {key}")
         };
         public short getKeyFromString(string flag)
         {

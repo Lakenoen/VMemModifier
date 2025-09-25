@@ -53,7 +53,7 @@ public static class DataFormatter
         _ => data.ToString()
     };
 
-    public static Data format(string data, in short format) => format switch
+    public static Data? format(string data, in short format) => format switch
     {
         Format.HEX | Format.STR => hexFormat(data),
         Format.HEX | Format.INT => decHexFormat(data, Format.HEX | Format.INT),
@@ -73,7 +73,7 @@ public static class DataFormatter
         Format.FLOAT => decFormat(data, Format.FLOAT),
         Format.SHORT => decFormat(data, Format.SHORT),
         Format.BYTE => decFormat(data, Format.BYTE),
-        _ => new Data(Encoding.UTF8, data)
+        _ => null
     };
 
     private static string hexFormat(Data data)

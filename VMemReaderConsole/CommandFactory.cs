@@ -20,6 +20,6 @@ internal static class CommandFactory
         "create" => new CreateCommand(manager),
         "help" => new HelpCommand(manager),
         "dump" => new SaveMemDumpCommand(manager),
-        _ => throw new ArgumentException("Unknomn command")
+        _ => throw new ArgumentException($"Unknomn command - {command}")
     };
 }
