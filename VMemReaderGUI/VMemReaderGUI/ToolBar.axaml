@@ -10,12 +10,12 @@
           CornerRadius="2"
           Padding="5" Margin="5">
 		<StackPanel Orientation="Horizontal" HorizontalAlignment="Left"  Height="50">
-			<Button VerticalContentAlignment="Center" Height="46">Search</Button>
-			<Button VerticalContentAlignment="Center" Height="46">Read</Button>
-			<Button VerticalContentAlignment="Center" Height="46">Write</Button>
-			<Button VerticalContentAlignment="Center" Height="46">Inject</Button>
-			<Button VerticalContentAlignment="Center" Height="46">Create</Button>
-			<Button VerticalContentAlignment="Center" Height="46">Close</Button>
+			<Button VerticalContentAlignment="Center" Height="46" Click="ClickHandler"> Search </Button>
+			<Button VerticalContentAlignment="Center" Height="46"> Read </Button>
+			<Button VerticalContentAlignment="Center" Height="46"> Write </Button>
+			<Button VerticalContentAlignment="Center" Height="46"> Inject </Button>
+			<Button VerticalContentAlignment="Center" Height="46"> Create </Button>
+			<Button VerticalContentAlignment="Center" Height="46"> Close </Button>
 			<Label VerticalContentAlignment="Center">ID</Label>
 			<TextBox VerticalContentAlignment="Center" Height="30"></TextBox>
 		</StackPanel>
