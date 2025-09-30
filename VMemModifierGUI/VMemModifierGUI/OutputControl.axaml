@@ -1,0 +1,11 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="450"
+             x:Class="VMemReaderGUI.OutputControl"
+			 x:Name="OutputCtrl">
+	    <TabControl Grid.Column="0" Grid.Row="0" x:Name="MainTab" Width="{Binding #OutputCtrl.Bounds.Width}" Height="{Binding #OutputCtrl.Bounds.Height}">
+			
+		</TabControl>
+</UserControl>

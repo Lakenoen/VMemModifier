@@ -1,0 +1,16 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:controls="clr-namespace:VMemReaderGUI"
+             x:Class="VMemReaderGUI.IdListControl">
+		<ScrollViewer x:Name="Scroll" Width="{Binding Bounds.Width, RelativeSource={RelativeSource AncestorType=UserControl}}">
+			<StackPanel x:Name="StackPanelContainer">
+				<Grid ColumnDefinitions="*,*" RowDefinitions="*">
+					<TextBlock  Text="Name of process" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center"/>
+					<TextBlock  Text="ID of process" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Margin="-80,0"/>
+				</Grid>
+			</StackPanel>
+		</ScrollViewer>
+</UserControl>

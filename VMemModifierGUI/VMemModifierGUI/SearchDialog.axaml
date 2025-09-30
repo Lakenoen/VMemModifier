@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="320" d:DesignHeight="240"
+		Width = "640"
+		Height ="360"
+        x:Class="VMemReaderGUI.SearchDialog"
+        Title="SearchDialog">
+		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="50">
+			<StackPanel Orientation="Horizontal" Spacing="10">
+				<TextBlock VerticalAlignment="Center">Pattern</TextBlock>
+				<TextBox x:Name="PatternTextBox" Watermark="Input pattern" MaxLength="2048" AcceptsReturn="True" TextWrapping="Wrap" Width="300" Height="{Binding #DataVariantCombo.Height}"/>
+				<ComboBox x:Name="DataVariantCombo" SelectedIndex="0" MaxDropDownHeight="100">
+					<ComboBoxItem>Utf-8 string</ComboBoxItem>
+					<ComboBoxItem>Ascii string</ComboBoxItem>
+					<ComboBoxItem>Unicode string</ComboBoxItem>
+					<ComboBoxItem>Int</ComboBoxItem>
+				</ComboBox>
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
+				<Button Click="OnSearch">OK</Button>
+				<Button>Cancel</Button>
+			</StackPanel>
+		</StackPanel>
+</Window>

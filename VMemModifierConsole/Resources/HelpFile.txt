@@ -1,0 +1,204 @@
+{
+    "commands":[
+        {
+            "name": "search",
+            "description" : "Searches at virtual memory (arg1 - ID, arg2 - Data)",
+            "allowFlags": [
+                {
+                    "flagName": "bin",
+                    "description": "The format of the desired data"
+                },
+                {
+                    "flagName": "hex",
+                    "description": "The format of the desired data, it can be combined with flags: int, long, short, byte, float, doable, str"
+                },
+                {
+                    "flagName": "str",
+                    "description": "The format of the desired data, it can be combined with flags: ascii, utf8, unicode"
+                },
+                {
+                    "flagName": "utf8",
+                    "description": "The format of the desired data, it can be combined with flags: str"
+                },
+                {
+                    "flagName": "unicode",
+                    "description": "The format of the desired data, it can be combined with flags: str"
+                },
+                {
+                    "flagName": "ascii",
+                    "description": "The format of the desired data, it can be combined with flags: str"
+                },
+                {
+                    "flagName": "byte",
+                    "description": "The format of the desired data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "int",
+                    "description": "The format of the desired data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "float",
+                    "description": "The format of the desired data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "double",
+                    "description": "The format of the desired data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "short",
+                    "description": "The format of the desired data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "long",
+                    "description": "The format of the desired data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "reg",
+                    "description": "Regular expression"
+                }
+            ]
+        },
+        {
+            "name": "read",
+            "description" : "Reading data at the address (arg1 - ID, arg2 - Address, arg3 - Size)",
+            "allowFlags": [
+                {
+                    "flagName": "bin",
+                    "description": "Data output format"
+                },
+                {
+                    "flagName": "hex",
+                    "description": "Data output format, it can be combined with flags: int, long, short, byte, float, doable, str"
+                },
+                {
+                    "flagName": "str",
+                    "description": "Data output format, it can be combined with flags: ascii, utf8, unicode"
+                },
+                {
+                    "flagName": "utf8",
+                    "description": "Data output format, it can be combined with flags: str"
+                },
+                {
+                    "flagName": "unicode",
+                    "description": "Data output format, it can be combined with flags: str"
+                },
+                {
+                    "flagName": "ascii",
+                    "description": "Data output format, it can be combined with flags: str"
+                },
+                {
+                    "flagName": "byte",
+                    "description": "Data output format, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "int",
+                    "description": "Data output format, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "float",
+                    "description": "Data output format, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "double",
+                    "description": "Data output format, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "short",
+                    "description": "Data output format, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "long",
+                    "description": "Data output format, it can be combined with flags: hex"
+                }
+            ]
+        },
+        {
+            "name": "write",
+            "description" : "Enters data at the specified address (arg1 - ID, arg2 - Address, arg3 - Data)",
+            "allowFlags": [
+                {
+                    "flagName": "bin",
+                    "description": "The format of the entered data"
+                },
+                {
+                    "flagName": "hex",
+                    "description": "The format of the entered data, it can be combined with flags: int, long, short, byte, float, doable, str"
+                },
+                {
+                    "flagName": "str",
+                    "description": "The format of the entered data, it can be combined with flags: ascii, utf8, unicode"
+                },
+                {
+                    "flagName": "utf8",
+                    "description": "The format of the entered data, it can be combined with flags: str"
+                },
+                {
+                    "flagName": "unicode",
+                    "description": "The format of the entered data, it can be combined with flags: str"
+                },
+                {
+                    "flagName": "ascii",
+                    "description": "The format of the entered data, it can be combined with flags: str"
+                },
+                {
+                    "flagName": "byte",
+                    "description": "The format of the entered data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "int",
+                    "description": "The format of the entered data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "float",
+                    "description": "The format of the entered data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "double",
+                    "description": "The format of the entered data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "short",
+                    "description": "The format of the entered data, it can be combined with flags: hex"
+                },
+                {
+                    "flagName": "long",
+                    "description": "The format of the entered data, it can be combined with flags: hex"
+                }
+            ]
+        },
+        {
+            "name": "inject",
+            "description" : "Inject DLL to the specified process (arg1 - ID, arg2 - Path to DLL)",
+            "allowFlags": []
+        },
+        {
+            "name": "create",
+            "description" : "Launches the specified process (arg1 - path to exe file)",
+            "allowFlags": []
+        },
+        {
+            "name": "close",
+            "description" : "Closes the specified process (arg1 - id)",
+            "allowFlags": []
+        },
+        {
+            "name": "dump",
+            "description" : "Save dump to file (arg1 - id, arg2 - path to new dump file)",
+            "allowFlags": []
+        },
+        {
+            "name": "help",
+            "description" : "Provides information about commands and flags (arg1 - [empty|flag|name])",
+            "allowFlags": [
+                {
+                    "flagName": "name",
+                    "description": "Search by command name"
+                },
+                {
+                    "flagName": "flag",
+                    "description": "Search by flag name"
+                }
+            ]
+        }
+    ]
+}
