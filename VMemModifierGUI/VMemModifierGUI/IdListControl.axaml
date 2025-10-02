@@ -6,11 +6,6 @@
 			 xmlns:controls="clr-namespace:VMemReaderGUI"
              x:Class="VMemReaderGUI.IdListControl">
 		<ScrollViewer x:Name="Scroll" Width="{Binding Bounds.Width, RelativeSource={RelativeSource AncestorType=UserControl}}">
-			<StackPanel x:Name="StackPanelContainer">
-				<Grid ColumnDefinitions="*,*" RowDefinitions="*">
-					<TextBlock  Text="Name of process" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center"/>
-					<TextBlock  Text="ID of process" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Margin="-80,0"/>
-				</Grid>
-			</StackPanel>
+			<StackPanel x:Name="StackPanelContainer"></StackPanel>
 		</ScrollViewer>
 </UserControl>

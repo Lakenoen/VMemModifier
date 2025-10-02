@@ -14,7 +14,7 @@ namespace VMemReaderGUI;
 
 public partial class IdListControl : UserControl
 {
-    private readonly System.Timers.Timer checkProcessTimer = new System.Timers.Timer(5000);
+    private readonly System.Timers.Timer checkProcessTimer = new System.Timers.Timer(1000 * 60);
     public OutputControl? outputControl { get; set; }
     public IdListControl()
     {
@@ -23,8 +23,6 @@ public partial class IdListControl : UserControl
         checkProcessTimer.Elapsed += TimerEvent;
         checkProcessTimer.AutoReset = true;
         checkProcessTimer.Start();
-
-        AddProcesses();
 
         WindowManager<IdListControl>.Instance.Value = this;
     }
@@ -41,7 +39,7 @@ public partial class IdListControl : UserControl
 
     private void TimerEvent(object? source, ElapsedEventArgs e)
     {
-        Dispatcher.UIThread.Post(() => AddProcesses());
+        Dispatcher.UIThread.Post(() => UpdateProcesses());
     }
 
     private List<Control> getIdElements()
@@ -49,7 +47,7 @@ public partial class IdListControl : UserControl
         return Scroll.GetControl<StackPanel>("StackPanelContainer").Children.ToList();
     }
 
-    private void AddProcesses()
+    public void UpdateProcesses()
     {
         Process[] procArray = Process.GetProcesses();
         foreach( Control ctrl in getIdElements())

@@ -20,9 +20,17 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
+	<ItemGroup>
+		<AvaloniaResource Include="Assets\**" />
+	</ItemGroup> 
+
+	<ItemGroup>
     <Compile Update="OutputControl.axaml.cs">
       <DependentUpon>OutputControl.axaml</DependentUpon>
     </Compile>
   </ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Assets\" />
+	</ItemGroup>
 </Project>

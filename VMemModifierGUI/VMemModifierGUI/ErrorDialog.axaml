@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="VMemModifierGUI.ErrorDialog"
+		Width = "640"
+		Height ="360"
+		Icon="Assets/ErrorIcon.png"
+        Title="Error">
+	<Grid ColumnDefinitions="*,3*" RowDefinitions="4*,*"  Margin="4">
+		<Image Source="Assets/Error.png" Grid.Row="0" Grid.Column="0"/>
+		<Border BorderBrush="Black" BorderThickness="1" CornerRadius="3" Grid.Row="0" Grid.Column="1" Margin="40,40,40,20">
+			<TextBlock x:Name="TextBlock"></TextBlock>
+		</Border>
+	    <Button Click="OnOkClick" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center">OK</Button>
+	</Grid>
+</Window>
