@@ -26,7 +26,7 @@ extern "C" {
 
 	void __cdecl getMemInfo(int id, long long addr, MemInfo& memInfo, unsigned long long& error) {
 		HANDLE handle = OpenProcess(PROCESS_ALL_ACCESS | PROCESS_QUERY_INFORMATION, false, id);
-		if (handle == INVALID_HANDLE_VALUE)
+		if (handle == INVALID_HANDLE_VALUE || handle == NULL)
 			return;
 
 		MEMORY_BASIC_INFORMATION info{ 0 };
@@ -112,8 +112,6 @@ extern "C" {
 #ifdef DEBUG
 
 int main() {
-	short stat = 0;
-	inject(16708, L"testEvil.dll", stat);
 	return 0;
 }
 

@@ -53,7 +53,7 @@ public class VMemStream : VMemStreamNative
     {
         MemInfo? info = this.getInfo(0);
         if (info is null)
-            throw new Exception("The address does not belong to the process");
+            throw new Exception("Failed to open the process, you may not have sufficient permissions");
         long minAddr = info.Value.minAddr;
         long maxAddr = info.Value.maxAddr;
         forEach(minAddr, maxAddr, step, payload);
@@ -85,13 +85,13 @@ public class VMemStream : VMemStreamNative
         forEach(BLOCK_SIZE, payload);
     }
 
-    public List<long> find(Data findData)
+    public HashSet<long> find(Data findData)
     {
         object sync = new object();
         if (findData.data.Count >= BLOCK_SIZE / 2)
             throw new ArgumentException("The desired element should be less than block size / 2");
 
-        List<long> results = new List<long>();
+        HashSet<long> results = new HashSet<long>();
 
         forEach(BLOCK_SIZE / 2, async data =>
         {
@@ -111,7 +111,7 @@ public class VMemStream : VMemStreamNative
         return results;
     }
 
-    public List<long> find(long start, long end, Data findData)
+    public HashSet<long> find(long start, long end, Data findData)
     {
         object sync = new object();
         if (findData.data.Count >= BLOCK_SIZE / 2)
@@ -132,7 +132,7 @@ public class VMemStream : VMemStreamNative
                 }
             });
         });
-        return results.ToList();
+        return results;
     }
 
     private long nextSize(MemInfo? info)

@@ -10,6 +10,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VMemModifierCore\VMemModifierCore.csproj" />
+	  <Content Include="VMemModifierDLL.dll">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
   </ItemGroup>
 
   <ItemGroup>

@@ -24,10 +24,16 @@
 		<AvaloniaResource Include="Assets\**" />
 	</ItemGroup> 
 
-	<ItemGroup>
+  <ItemGroup>
     <Compile Update="OutputControl.axaml.cs">
       <DependentUpon>OutputControl.axaml</DependentUpon>
     </Compile>
+	  <Content Include="VMemModifierDLL.dll">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="VMemModifierConsole.exe">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
   </ItemGroup>
 
 	<ItemGroup>

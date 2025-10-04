@@ -1,9 +1,11 @@
 using System;
 using System.Diagnostics;
+using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
+using Avalonia.Threading;
 using VMemModifierGUI;
 using static VMemReaderGUI.IdListElementControl;
 
@@ -42,9 +44,18 @@ public partial class SearchDialog : Window
             return;
         }
 
-        string response = VMemModifierConsole.ExecSearch(procId.Value, PatternTextBox.Text, flags);
+        outputItem.Content = "Processing...";
+        int id = procId.Value;
+        string text = PatternTextBox.Text;
+        Task.Run(() =>
+        {
+            string response = VMemModifierConsole.ExecSearch(id, text, flags);
+            Dispatcher.UIThread.Post(() =>
+            {
+                outputItem.Content = response;
+            }, DispatcherPriority.Background);
+        });
 
-        outputItem.Content = response;
         Close();
     }
 

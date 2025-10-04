@@ -1,5 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 using Microsoft.Extensions.Logging;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace VMemReaderCore;
 
@@ -15,22 +16,37 @@ public abstract class VMemStreamNative
     private static extern void writeMemory(int id, long addr, [MarshalAs(UnmanagedType.LPArray)] byte[] data, long size, out ulong written, out ulong error);
 
     protected ILogger logger = Log.Instance.Factory.CreateLogger<VMemStreamNative>();
+
+    private const int NOT_ALLOC_ERROR_CODE = 299;
+    private const short READ_TRY_COUNT = 3;
     protected byte[] read(int id,long addr, long size)
     {
         if (getInfo(id, addr) is null)
             throw new Exception("The address does not belong to the process");
 
-        byte[] data = new byte[size];
-        ulong readed = 0;
-        ulong error = 0;
-        readMemory(id, addr, size, data, out readed, out error);
-
-        if (readed == 0)
+        short count = READ_TRY_COUNT;
+        while(count > 0)
         {
-            logger.LogDebug("Error: Read method returned an empty array, code: " + Convert.ToString(error));
-            return new byte[0];
+            byte[] data = new byte[size];
+            ulong readed = 0;
+            ulong error = 0;
+            readMemory(id, addr, size, data, out readed, out error);
+
+            if (error == NOT_ALLOC_ERROR_CODE && readed == 0)
+            {
+                logger.LogDebug($"The memory was not allocated, address: {addr}");
+                --count;
+                continue;
+            }
+            else if (readed == 0)
+            {
+                Console.WriteLine("Error: Read method returned an empty array, code: " + Convert.ToString(error));
+                return new byte[0];
+            }
+            return data;
         }
-        return data;
+
+        return new byte[0];
     }
 
     protected bool write(int id,long addr, byte[] data)
@@ -53,8 +69,10 @@ public abstract class VMemStreamNative
     protected MemInfoNative? getInfo(int id, long addr)
     {
         MemInfoNative result = new MemInfoNative();
+
         ulong error = 0;
         getMemInfo(id, addr, ref result, out error);
+
         if (result.state == 0)
         {
             logger.LogDebug($"getMemoryInfo method ended with an error: {error}");

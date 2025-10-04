@@ -2,7 +2,7 @@
     "commands":[
         {
             "name": "search",
-            "description" : "Searches at virtual memory (arg1 - ID, arg2 - Data)",
+            "description" : "Searches at virtual memory (arg1 - ID, arg2 - Data) or (arg1 - ID, arg2 - Data, arg3 - start address, arg4 - end address)",
             "allowFlags": [
                 {
                     "flagName": "bin",
