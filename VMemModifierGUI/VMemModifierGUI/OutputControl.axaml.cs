@@ -3,6 +3,8 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Controls.Primitives;
+using Avalonia.Data;
 using Avalonia.Markup.Xaml;
 
 namespace VMemReaderGUI;
@@ -28,11 +30,17 @@ public partial class OutputControl : UserControl
             MainTab.SelectedItem = map[proc.Id];
             return;
         }
+
         var item = new TabItem
         {
             Header = proc.ProcessName + " (" + proc.Id + ")",
-            Content = new TextBox()
+            Content = new TextBox
+            {
+                AcceptsReturn = true,
+                TextWrapping = Avalonia.Media.TextWrapping.Wrap
+            }
         };
+
         map[proc.Id] = item;
         tabs.Add(item);
         CurrentProcess = proc;

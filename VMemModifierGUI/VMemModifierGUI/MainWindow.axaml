@@ -8,7 +8,7 @@
         Title="VMemReaderGUI">
 	<Grid  RowDefinitions="*,10*">
 		<controls:ToolBar Grid.Row ="0"/>
-		<Grid Grid.Row ="1" ColumnDefinitions="*,3*" RowDefinitions="*"  Margin="10">
+		<Grid Grid.Row ="1" ColumnDefinitions="*,3*" RowDefinitions="*"  Margin="20">
 			<controls:OutputControl x:Name ="OutputControl" Grid.Row ="0" Grid.Column="1" HorizontalContentAlignment="Center"/>
 			<Border BorderBrush="Black" BorderThickness="1" CornerRadius="3" Grid.Row ="0" Grid.Column="0">
 				<controls:IdListControl x:Name ="IdControl" HorizontalContentAlignment="Center"/>

@@ -7,7 +7,7 @@
 		Height ="360"
         x:Class="VMemReaderGUI.SearchDialog"
         Title="Search">
-		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="50">
+		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="25">
 			<StackPanel Orientation="Horizontal" Spacing="10">
 				<TextBlock VerticalAlignment="Center">Pattern</TextBlock>
 				<TextBox x:Name="PatternTextBox" Watermark="Input pattern" MaxLength="2048" AcceptsReturn="True" TextWrapping="Wrap" Width="300" Height="{Binding #DataVariantCombo.Height}"/>
@@ -15,8 +15,20 @@
 					<ComboBoxItem>Utf-8 string</ComboBoxItem>
 					<ComboBoxItem>Ascii string</ComboBoxItem>
 					<ComboBoxItem>Unicode string</ComboBoxItem>
-					<ComboBoxItem>Int</ComboBoxItem>
+					<ComboBoxItem>int</ComboBoxItem>
+					<ComboBoxItem>short</ComboBoxItem>
+					<ComboBoxItem>double</ComboBoxItem>
+					<ComboBoxItem>float</ComboBoxItem>
+					<ComboBoxItem>byte</ComboBoxItem>
+					<ComboBoxItem>long</ComboBoxItem>
+					<ComboBoxItem>bin</ComboBoxItem>
 				</ComboBox>
+			</StackPanel>
+			<CheckBox>Regular expression</CheckBox>
+			<CheckBox>Hex foramt</CheckBox>
+			<StackPanel Orientation="Horizontal" Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+				<TextBox x:Name="StartTextBox" Watermark="Start address" TextWrapping="Wrap">	</TextBox>
+				<TextBox x:Name="EndTextBox" Watermark="End address" TextWrapping="Wrap"></TextBox>
 			</StackPanel>
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
 				<Button Click="OnSearch">OK</Button>

@@ -30,7 +30,7 @@ static class VMemModifierConsole
         return proc.StandardOutput.ReadToEnd();
     }
 
-    public static string ExecSearch(int id, string pattern, string flags)
+    public static string ExecSearch(int id, string pattern, string start, string end, string flags, bool? isReg, bool? isHex)
     {
         string formattedFlag = "";
         switch (flags)
@@ -38,9 +38,25 @@ static class VMemModifierConsole
             case "Utf-8 string" : formattedFlag = "-str -utf8"; break;
             case "Ascii string": formattedFlag = "-str -ascii"; break;
             case "Unicode string": formattedFlag = "-str -unicode"; break;
-            case "Int": formattedFlag = "-int"; break;
+            case "int": formattedFlag = "-int"; break;
+            case "short": formattedFlag = "-short"; break;
+            case "long": formattedFlag = "-long"; break;
+            case "byte": formattedFlag = "-byte"; break;
+            case "double": formattedFlag = "-double"; break;
+            case "float": formattedFlag = "-float"; break;
+            case "bin": formattedFlag = "-bin"; break;
         }
-        return Exec("search", id.ToString(), pattern, formattedFlag);
+
+        if (isReg != null && isReg == true)
+            formattedFlag += " -reg";
+
+        if (isHex != null && isHex == true)
+            formattedFlag += " -hex";
+
+        if (start.Length == 0 && end.Length == 0)
+            return Exec("search", id.ToString(), pattern, formattedFlag);
+        else
+            return Exec("search", id.ToString(), pattern, start, end, formattedFlag);
     }
 
 }
