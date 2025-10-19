@@ -85,7 +85,7 @@ public class VMemStream : VMemStreamNative
         forEach(BLOCK_SIZE, payload);
     }
 
-    public HashSet<long> find(Data findData)
+    public HashSet<long> find(Data findData, List<int>? sizes = null)
     {
         object sync = new object();
         if (findData.data.Count >= BLOCK_SIZE / 2)
@@ -99,7 +99,7 @@ public class VMemStream : VMemStreamNative
                 return;
             await Task.Run(() =>
             {
-                foreach (var item in search.Invoke(data.data, findData.data))
+                foreach (var item in search.Invoke(data.data, findData.data, sizes))
                 {
                     lock (sync)
                     {
@@ -111,7 +111,7 @@ public class VMemStream : VMemStreamNative
         return results;
     }
 
-    public HashSet<long> find(long start, long end, Data findData)
+    public HashSet<long> find(long start, long end, Data findData, List<int>? sizes = null)
     {
         object sync = new object();
         if (findData.data.Count >= BLOCK_SIZE / 2)
@@ -125,7 +125,7 @@ public class VMemStream : VMemStreamNative
                 return;
             await Task.Run(() =>
             {
-                foreach (var item in search.Invoke(data.data, findData.data))
+                foreach (var item in search.Invoke(data.data, findData.data, sizes))
                 {
                     lock (sync)
                         results.Add(data.addr + item);

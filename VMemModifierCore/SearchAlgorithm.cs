@@ -12,11 +12,13 @@ namespace VMemReaderCore;
 public class SearchAlgorithms
 {
     private static readonly short ALFSIZE = 256;
-    public static HashSet<long> bmSearch(in List<byte> text, in List<byte> pattern)
+    public static HashSet<long> bmSearch(in List<byte> text, in List<byte> pattern, List<int>? sizes = null)
     {
         HashSet<long> results = new HashSet<long>();
         try
         {
+            sizes?.Clear();
+
             if (pattern.Count == 0)
                 return results;
 
@@ -39,12 +41,13 @@ public class SearchAlgorithms
 
                 if (j < 0)
                 {
+                    sizes?.Add(pattern.Count);
                     results.Add((long)shift);
                     shift += (shift + pattern.Count < text.Count) ? pattern.Count - map[text[shift + pattern.Count]] : 1;
                 }
                 else
                 {
-                    shift += int.Max(1, map[text[shift + j]]);
+                    shift += int.Max(1, j - map[text[shift + j]]);
                 }
 
             }
@@ -57,14 +60,18 @@ public class SearchAlgorithms
         return results;
     }
 
-    public static HashSet<long> bmSearchRegEx(in List<byte> text, in List<byte> pattern)
+    public static HashSet<long> SearchRegEx(in List<byte> text, in List<byte> pattern, List<int>? sizes = null)
     {
         try
         {
+            sizes?.Clear();
             string textStr = Encoding.ASCII.GetString(text.ToArray());
             string patternStr = Encoding.ASCII.GetString(pattern.ToArray());
             Regex regex = new Regex(patternStr);
-            return regex.Matches(textStr).Cast<Match>().ToList().Select((Match m) => (long)m.Index).ToHashSet();
+            return regex.Matches(textStr).Cast<Match>().ToList().Select( (Match m) => {
+                sizes?.Add(m.Value.Length);
+                return (long)m.Index;
+            }).ToHashSet();
         }
         catch (Exception ex)
         {
@@ -73,6 +80,6 @@ public class SearchAlgorithms
         }
     }
 
-    public delegate HashSet<long> Search(in List<byte> text, in List<byte> pattern);
+    public delegate HashSet<long> Search(in List<byte> text, in List<byte> pattern, List<int>? sizes = null);
 
 }

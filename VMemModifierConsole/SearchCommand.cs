@@ -41,8 +41,12 @@ class SearchCommand : AbstractCommand
         if (data == null)
             throw new ArgumentException("Unknown flag or prohibited combination of flags");
 
-        if ( (base.flags & AbstractCommand.Flag.REG ) != 0)
-            base.manager[id].search = SearchAlgorithms.bmSearchRegEx;
+        List<int>? sizes = null;
+        if ((base.flags & AbstractCommand.Flag.REG) != 0)
+        {
+            base.manager[id].search = SearchAlgorithms.SearchRegEx;
+            sizes = new List<int>();
+        }
 
         HashSet<long>? addrs = null;
         if (parameters.Length >= 4)
@@ -53,7 +57,7 @@ class SearchCommand : AbstractCommand
         }
         else
         {
-            addrs = base.manager[id].find(data);
+            addrs = base.manager[id].find(data, sizes);
         }
 
         base.manager[id].search = SearchAlgorithms.bmSearch;
@@ -63,7 +67,8 @@ class SearchCommand : AbstractCommand
 
         for(int i = 0; i < addrs.Count; ++i)
         {
-            Console.WriteLine(getOutput(addrs.ElementAt(i), base.manager[id].read(addrs.ElementAt(i), data.data.Count)));
+            int len = (sizes is null) ? data.data.Count : sizes[i];
+            Console.WriteLine( getOutput(addrs.ElementAt(i), base.manager[id].read(addrs.ElementAt(i), len)) );
         }
 
         Console.WriteLine("Success");
