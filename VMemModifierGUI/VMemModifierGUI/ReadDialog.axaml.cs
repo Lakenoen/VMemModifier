@@ -1,7 +1,5 @@
-using System;
-using System.Diagnostics;
+using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Controls;
@@ -9,18 +7,17 @@ using Avalonia.Interactivity;
 using Avalonia.LogicalTree;
 using Avalonia.Markup.Xaml;
 using Avalonia.Threading;
-using Avalonia.VisualTree;
 using VMemModifierGUI;
-using static VMemModifierGUI.IdListElementControl;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace VMemModifierGUI;
 
-public partial class SearchDialog : Window, ICommandDialog
+public partial class ReadDialog : Window, ICommandDialog
 {
-    public SearchDialog()
+    public ReadDialog()
     {
         InitializeComponent();
-        WindowManager<SearchDialog>.Instance.Value = this;
+        WindowManager<ReadDialog>.Instance.Value = this;
         DataVariantCombo.SelectionChanged += DataVariantCombo_SelectionChanged;
         checkHex();
     }
@@ -32,7 +29,7 @@ public partial class SearchDialog : Window, ICommandDialog
 
     private void checkHex()
     {
-        CheckBox? isHexCheckBox = this.GetLogicalDescendants().OfType<CheckBox>().ElementAt(1);
+        CheckBox? isHexCheckBox = this.GetLogicalDescendants().OfType<CheckBox>().ElementAt(0);
         ComboBoxItem? selectedItem = DataVariantCombo.SelectedItem as ComboBoxItem;
         string? flags = selectedItem?.Content as string;
         if (flags.Contains("string") || flags.Contains("bin"))
@@ -40,7 +37,6 @@ public partial class SearchDialog : Window, ICommandDialog
         else
             isHexCheckBox.IsEnabled = true;
     }
-
     public void OnClick(object sender, RoutedEventArgs args)
     {
         int? procId = WindowManager<OutputControl>.Instance.Value?.CurrentProcess?.Id;
@@ -60,26 +56,23 @@ public partial class SearchDialog : Window, ICommandDialog
         ComboBoxItem? selectedItem = DataVariantCombo.SelectedItem as ComboBoxItem;
         string? flags = selectedItem?.Content as string;
 
-        if (string.IsNullOrEmpty(PatternTextBox.Text) || flags is null)
+        if (string.IsNullOrEmpty(AddressTextBox.Text) || flags is null)
         {
-            new ErrorDialog("Not chosen flag or pattern").ShowDialog(this);
+            new ErrorDialog("Not chosen address or size").ShowDialog(this);
             return;
         }
 
         (outputItem.Content as TextBox)!.Text = "Processing...";
-        CheckBox? isRegcheckBox = this.GetLogicalDescendants().OfType<CheckBox>().First();
-        CheckBox? isHexCheckBox = this.GetLogicalDescendants().OfType<CheckBox>().ElementAt(1);
+        CheckBox? isHexCheckBox = this.GetLogicalDescendants().OfType<CheckBox>().First();
 
         int id = procId.Value;
-        string text = PatternTextBox.Text;
-        string start = (StartTextBox?.Text is null) ? string.Empty : StartTextBox.Text;
-        string end = (EndTextBox?.Text is null) ? string.Empty : EndTextBox.Text;
-        bool? isReg = isRegcheckBox?.IsChecked;
+        string address = (AddressTextBox?.Text is null) ? string.Empty : AddressTextBox.Text;
+        string size = (SizeTextBox?.Text is null) ? string.Empty : SizeTextBox.Text;
         bool? isHex = isHexCheckBox?.IsChecked;
 
         Task.Run(() =>
         {
-            string response = VMemModifierConsole.ExecSearch(id, text, start, end, flags, isReg, isHex);
+            string response = VMemModifierConsole.ExecRead(id, address, size, flags, isHex);
             Dispatcher.UIThread.Post(() =>
             {
                 (outputItem.Content as TextBox)!.Text = response;
@@ -88,9 +81,9 @@ public partial class SearchDialog : Window, ICommandDialog
 
         Close();
     }
+
     public void OnClose(object sender, RoutedEventArgs args)
     {
         Close();
     }
-
 }

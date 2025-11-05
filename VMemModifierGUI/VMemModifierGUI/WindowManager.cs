@@ -8,7 +8,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.VisualTree;
 
-namespace VMemReaderGUI;
+namespace VMemModifierGUI;
 internal class WindowManager<T> where T : new()
 {
     private static WindowManager<T>? instance = null;

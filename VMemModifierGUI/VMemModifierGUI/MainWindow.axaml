@@ -2,13 +2,31 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-		xmlns:controls="clr-namespace:VMemReaderGUI"
+		xmlns:controls="clr-namespace:VMemModifierGUI"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="VMemReaderGUI.MainWindow"
-        Title="VMemReaderGUI">
-	<Grid  RowDefinitions="*,10*">
-		<controls:ToolBar Grid.Row ="0"/>
-		<Grid Grid.Row ="1" ColumnDefinitions="*,3*" RowDefinitions="*"  Margin="20">
+        x:Class="VMemModifierGUI.MainWindow"
+		x:Name="MainWnd"
+		MinWidth="960"
+		MinHeight="720"
+        Title="VMemModifierGUI">
+	<Grid RowDefinitions="*,Auto,21*">
+		<Menu Grid.Row ="0">
+			<MenuItem Header="_Menu">
+				<MenuItem Header="_Exit" Click="Exit"/>
+			</MenuItem>
+			<MenuItem Header="_Process">
+				<MenuItem Header="_Create" Click="MenuHandler"/>
+				<MenuItem Header="_Close" Click="MenuHandler"/>
+				<MenuItem Header="_Inject" Click="MenuHandler"/>
+			</MenuItem>
+			<MenuItem Header="_Memory">
+				<MenuItem Header="_Search" Click="MenuHandler"/>
+				<MenuItem Header="_Read" Click="MenuHandler"/>
+				<MenuItem Header="_Write" Click="MenuHandler"/>
+			</MenuItem>
+		</Menu>
+		<controls:ToolBar Grid.Row ="1"/>
+		<Grid Grid.Row ="2" ColumnDefinitions="*,3*" RowDefinitions="*"  Margin="10">
 			<controls:OutputControl x:Name ="OutputControl" Grid.Row ="0" Grid.Column="1" HorizontalContentAlignment="Center"/>
 			<Border BorderBrush="Black" BorderThickness="1" CornerRadius="3" Grid.Row ="0" Grid.Column="0">
 				<controls:IdListControl x:Name ="IdControl" HorizontalContentAlignment="Center"/>

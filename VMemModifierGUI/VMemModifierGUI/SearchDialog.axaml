@@ -5,7 +5,7 @@
         mc:Ignorable="d" d:DesignWidth="320" d:DesignHeight="240"
 		Width = "640"
 		Height ="360"
-        x:Class="VMemReaderGUI.SearchDialog"
+        x:Class="VMemModifierGUI.SearchDialog"
         Title="Search">
 		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="25">
 			<StackPanel Orientation="Horizontal" Spacing="10">
@@ -31,7 +31,7 @@
 				<TextBox x:Name="EndTextBox" Watermark="End address" TextWrapping="Wrap"></TextBox>
 			</StackPanel>
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
-				<Button Click="OnSearch">OK</Button>
+				<Button Click="OnClick">OK</Button>
 				<Button Click="OnClose">Cancel</Button>
 			</StackPanel>
 		</StackPanel>

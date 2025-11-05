@@ -21,6 +21,7 @@
   </ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\VMemModifierCore\VMemModifierCore.csproj" />
 		<AvaloniaResource Include="Assets\**" />
 	</ItemGroup> 
 

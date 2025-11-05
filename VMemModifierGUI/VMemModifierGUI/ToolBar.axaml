@@ -3,19 +3,25 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="100"
-             x:Class="VMemReaderGUI.ToolBar">
-	<Border Background="Gainsboro"
-          BorderBrush="Black"
+             x:Class="VMemModifierGUI.ToolBar">
+	<Border Background="LightGray"
           BorderThickness="1"
-          CornerRadius="2"
-          Padding="5" Margin="5">
-		<StackPanel Orientation="Horizontal" HorizontalAlignment="Left"  Height="50">
-			<Button VerticalContentAlignment="Center" Height="46" Click="ClickHandler"> Search </Button>
-			<Button VerticalContentAlignment="Center" Height="46"> Read </Button>
-			<Button VerticalContentAlignment="Center" Height="46"> Write </Button>
-			<Button VerticalContentAlignment="Center" Height="46"> Inject </Button>
-			<Button VerticalContentAlignment="Center" Height="46"> Create </Button>
-			<Button VerticalContentAlignment="Center" Height="46"> Close </Button>
+          CornerRadius="0"
+		  MinHeight="72"
+		  MaxHeight="72"
+		  Padding="2">
+		<StackPanel Orientation="Horizontal">
+			<Button CornerRadius="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="90" Height="45" Click="ClickHandler"> Search </Button>
+			<Button CornerRadius="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="90" Height="45" Click="ClickHandler"> Read </Button>
+			<Button CornerRadius="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="90" Height="45" Click="ClickHandler"> Write </Button>
+			<Button	HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="90" Height="45" Click="ClickHandler"> Inject </Button>
+			<Button CornerRadius="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="90" Height="45" Click="ClickHandler"> Create </Button>
+			<Border Height="45" Padding="2" CornerRadius="0" BorderBrush="Black" Background="DarkGray" BorderThickness="1">
+				<StackPanel Orientation="Horizontal">
+					<TextBox Watermark="Process ID" x:Name="CloseIdBox" MaxHeight="16" Margin="1,1,1,1" Grid.ColumnSpan="1" CornerRadius="3" VerticalContentAlignment="Center"></TextBox>
+					<Button CornerRadius="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="90" Click="ClickHandler"> Close </Button>
+				</StackPanel>
+			</Border>
 		</StackPanel>
 	</Border>
 </UserControl>

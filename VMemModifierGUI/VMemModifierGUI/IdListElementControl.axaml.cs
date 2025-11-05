@@ -4,7 +4,7 @@ using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using System.Diagnostics;
 
-namespace VMemReaderGUI;
+namespace VMemModifierGUI;
 
 public partial class IdListElementControl : UserControl
 {

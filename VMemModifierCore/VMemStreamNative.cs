@@ -38,11 +38,14 @@ public abstract class VMemStreamNative
                 --count;
                 continue;
             }
-            else if (readed == 0)
+            else if (readed == 0 && error != 0)
             {
-                Console.WriteLine("Error: Read method returned an empty array, code: " + Convert.ToString(error));
+                logger.LogDebug("Error: Read method returned an empty array, code: " + Convert.ToString(error));
                 return new byte[0];
             }
+            else if (readed == 0)
+                return new byte[0];
+
             return data;
         }
 

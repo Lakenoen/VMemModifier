@@ -1,7 +1,7 @@
 ﻿using System;
 using Avalonia;
 
-namespace VMemReaderGUI
+namespace VMemModifierGUI
 {
     internal class Program
     {

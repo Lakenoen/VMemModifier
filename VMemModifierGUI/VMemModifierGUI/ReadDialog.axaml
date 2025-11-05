@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="320" d:DesignHeight="240"
+		Width = "640"
+		Height ="360"
+        x:Class="VMemModifierGUI.ReadDialog"
+        Title="Read">
+	<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="25">
+		<StackPanel Orientation="Horizontal" Spacing="10">
+			<StackPanel Orientation="Horizontal" Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+				<TextBox x:Name="AddressTextBox" Watermark="Address" TextWrapping="Wrap">	</TextBox>
+				<TextBox x:Name="SizeTextBox" Watermark="Size" TextWrapping="Wrap"></TextBox>
+			</StackPanel>
+			<TextBlock x:Name="SelectorBlock" VerticalAlignment="Center">Output</TextBlock>
+			<ComboBox x:Name="DataVariantCombo" SelectedIndex="0" MaxDropDownHeight="100">
+				<ComboBoxItem>Utf-8 string</ComboBoxItem>
+				<ComboBoxItem>Ascii string</ComboBoxItem>
+				<ComboBoxItem>Unicode string</ComboBoxItem>
+				<ComboBoxItem>int</ComboBoxItem>
+				<ComboBoxItem>short</ComboBoxItem>
+				<ComboBoxItem>double</ComboBoxItem>
+				<ComboBoxItem>float</ComboBoxItem>
+				<ComboBoxItem>byte</ComboBoxItem>
+				<ComboBoxItem>long</ComboBoxItem>
+				<ComboBoxItem>bin</ComboBoxItem>
+			</ComboBox>
+		</StackPanel>
+		<CheckBox>Hex foramt</CheckBox>
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
+			<Button Click="OnClick">OK</Button>
+			<Button Click="OnClose">Cancel</Button>
+		</StackPanel>
+	</StackPanel>
+</Window>

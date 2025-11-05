@@ -3,9 +3,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-			 xmlns:controls="clr-namespace:VMemReaderGUI"
-             x:Class="VMemReaderGUI.IdListControl">
-		<ScrollViewer x:Name="Scroll" Width="{Binding Bounds.Width, RelativeSource={RelativeSource AncestorType=UserControl}}">
+			 xmlns:controls="clr-namespace:VMemModifierGUI"
+			 x:Name="ListControl"
+             x:Class="VMemModifierGUI.IdListControl">
+	<StackPanel x:Name="MainLayout">
+		<TextBox x:Name="FindTextBox" Watermark="Find" KeyDown="FindKeyDown"></TextBox>
+		<ScrollViewer x:Name="Scroll" MaxHeight="{Binding $parent[UserControl].Bounds.Height}" Width="{Binding Bounds.Width, RelativeSource={RelativeSource AncestorType=UserControl}}">
 			<StackPanel x:Name="StackPanelContainer"></StackPanel>
 		</ScrollViewer>
+	</StackPanel>
 </UserControl>

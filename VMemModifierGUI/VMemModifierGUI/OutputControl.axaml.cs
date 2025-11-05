@@ -1,13 +1,14 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Windows.Input;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.Primitives;
 using Avalonia.Data;
 using Avalonia.Markup.Xaml;
 
-namespace VMemReaderGUI;
+namespace VMemModifierGUI;
 
 public partial class OutputControl : UserControl
 {
@@ -37,8 +38,25 @@ public partial class OutputControl : UserControl
             Content = new TextBox
             {
                 AcceptsReturn = true,
-                TextWrapping = Avalonia.Media.TextWrapping.Wrap
-            }
+                TextWrapping = Avalonia.Media.TextWrapping.NoWrap,
+                IsReadOnly = true
+            },
+            ContextMenu = new ContextMenu()
+        };
+
+        var closeMenuItem = new MenuItem { Header = "Close" };
+        closeMenuItem.Click += (sender, e) =>
+        {
+            CurrentProcess = null;
+            tabs.Remove(item);
+            map.Remove(proc.Id);
+        };
+        item.ContextMenu.Items.Add(closeMenuItem);
+
+        item.PointerPressed += (sender, e) =>
+        {
+            if(e.GetCurrentPoint(null).Properties.IsRightButtonPressed)
+                item.ContextMenu.Open();
         };
 
         map[proc.Id] = item;
