@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "D:\\code\\projects\\VMemReader\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\toolbar.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\toolbar.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\searchdialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\searchdialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\toolbar.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\toolbar.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\outputcontrol.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\outputcontrol.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\writedialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\writedialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\searchdialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\searchdialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\idlistcontrol.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\idlistcontrol.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|d:\\code\\projects\\vmemreader\\vmemmodifierconsole\\vmemmodifierconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|solutionrelative:vmemmodifierconsole\\vmemmodifierconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -39,24 +15,36 @@
       "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16B9AD5D-97E1-4919-A3BF-A9A032D1F8CB}|UnitTests\\UnitTests.csproj|d:\\code\\projects\\vmemreader\\unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{16B9AD5D-97E1-4919-A3BF-A9A032D1F8CB}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\vmemmodifiergui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\vmemmodifiergui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|d:\\code\\projects\\vmemreader\\vmemmodifierconsole\\searchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|solutionrelative:vmemmodifierconsole\\searchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\writedialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\writedialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|d:\\code\\projects\\vmemreader\\vmemmodifierconsole\\resources\\helpfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|solutionrelative:vmemmodifierconsole\\resources\\helpfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|d:\\code\\projects\\vmemreader\\vmemmodifierconsole\\writecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|solutionrelative:vmemmodifierconsole\\writecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\idlistcontrol.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\idlistcontrol.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\readdialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\readdialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\searchdialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\searchdialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\errordialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\errordialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\toolbar.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\toolbar.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\vmemmodifireconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\vmemmodifireconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\errordialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,16 +55,52 @@
       "RelativeMoniker": "D:0:0:{01CA2B09-AC5F-11C4-5852-A3C181F643FE}|VMemModifierCore\\VMemModifierCore.csproj|solutionrelative:vmemmodifiercore\\vmemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|d:\\code\\projects\\vmemreader\\vmemmodifierconsole\\injectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|solutionrelative:vmemmodifierconsole\\injectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\writedialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\writedialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\toolbar.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\toolbar.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|d:\\code\\projects\\vmemreader\\vmemmodifierconsole\\resources\\helpfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|solutionrelative:vmemmodifierconsole\\resources\\helpfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\searchdialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\searchdialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\outputcontrol.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\outputcontrol.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\idlistcontrol.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\idlistcontrol.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B9AD5D-97E1-4919-A3BF-A9A032D1F8CB}|UnitTests\\UnitTests.csproj|d:\\code\\projects\\vmemreader\\unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16B9AD5D-97E1-4919-A3BF-A9A032D1F8CB}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|d:\\code\\projects\\vmemreader\\vmemmodifierconsole\\searchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|solutionrelative:vmemmodifierconsole\\searchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\idlistcontrol.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\idlistcontrol.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\idlistelementcontrol.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\idlistelementcontrol.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16B9AD5D-97E1-4919-A3BF-A9A032D1F8CB}|UnitTests\\UnitTests.csproj|d:\\code\\projects\\vmemreader\\unittests\\testcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16B9AD5D-97E1-4919-A3BF-A9A032D1F8CB}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\testcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\readdialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\readdialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\readdialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,27 +111,11 @@
       "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\idlistelementcontrol.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\vmemmodifireconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\vmemmodifireconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiergui\\vmemmodifiergui\\writedialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{478B1CE0-E285-11D0-8A54-6E99777D40AE}|VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj|solutionrelative:vmemmodifiergui\\vmemmodifiergui\\writedialog.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\VSGeneratedDocuments\\2458a179-4722-53e0-4529-843bdb416c0c\\VMemModifierGUI.WriteDialog.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|d:\\code\\projects\\vmemreader\\vmemmodifierconsole\\vmemmodifierconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|solutionrelative:vmemmodifierconsole\\vmemmodifierconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01CA2B09-AC5F-11C4-5852-A3C181F643FE}|VMemModifierCore\\VMemModifierCore.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiercore\\vmemstreamnative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01CA2B09-AC5F-11C4-5852-A3C181F643FE}|VMemModifierCore\\VMemModifierCore.csproj|solutionrelative:vmemmodifiercore\\vmemstreamnative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|d:\\code\\projects\\vmemreader\\vmemmodifierconsole\\writecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF6B72C9-9463-9B61-BA5B-FBF5088714B3}|VMemModifierConsole\\VMemModifierConsole.csproj|solutionrelative:vmemmodifierconsole\\writecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01CA2B09-AC5F-11C4-5852-A3C181F643FE}|VMemModifierCore\\VMemModifierCore.csproj|d:\\code\\projects\\vmemreader\\vmemmodifiercore\\vmemstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,7 +141,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -145,85 +153,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UnitTests",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\UnitTests\\UnitTests.csproj",
-              "RelativeDocumentMoniker": "UnitTests\\UnitTests.csproj",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\UnitTests\\UnitTests.csproj",
-              "RelativeToolTip": "UnitTests\\UnitTests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-04T21:44:33.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ToolBar.axaml.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml.cs",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml.cs",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAswFgAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "WriteCommand.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\WriteCommand.cs",
+              "RelativeDocumentMoniker": "VMemModifierConsole\\WriteCommand.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\WriteCommand.cs",
+              "RelativeToolTip": "VMemModifierConsole\\WriteCommand.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T22:20:34.26Z",
+              "WhenOpened": "2025-11-04T00:14:41.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SearchDialog.axaml.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml.cs",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml.cs",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAcwEQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T21:27:29.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HelpFile.txt",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\Resources\\HelpFile.txt",
-              "RelativeDocumentMoniker": "VMemModifierConsole\\Resources\\HelpFile.txt",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\Resources\\HelpFile.txt",
-              "RelativeToolTip": "VMemModifierConsole\\Resources\\HelpFile.txt",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-03T22:48:46.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ToolBar.axaml",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBcAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "WriteDialog.axaml",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-04T12:52:11.328Z",
+              "WhenOpened": "2025-11-04T12:53:03.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "VMemManager.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierCore\\VMemManager.cs",
-              "RelativeDocumentMoniker": "VMemModifierCore\\VMemManager.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierCore\\VMemManager.cs",
-              "RelativeToolTip": "VMemModifierCore\\VMemManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T21:35:07.144Z",
+              "DocumentIndex": 3,
+              "Title": "VMemModifierGUI.csproj",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-03T21:49:36.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "IdListControl.axaml",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\IdListControl.axaml",
               "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\IdListControl.axaml",
@@ -236,72 +205,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SearchDialog.axaml",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\MainWindow.axaml",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\MainWindow.axaml",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\MainWindow.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-03T22:47:09.099Z",
+              "WhenOpened": "2025-11-04T13:40:08.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WriteDialog.axaml.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml.cs",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml.cs",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAnwC0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T12:53:03.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OutputControl.axaml",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\OutputControl.axaml",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\OutputControl.axaml",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\OutputControl.axaml",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\OutputControl.axaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-03T22:07:28.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VMemModifierGUI.csproj",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\VMemModifierGUI.csproj",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-03T21:49:36.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SearchCommand.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\SearchCommand.cs",
-              "RelativeDocumentMoniker": "VMemModifierConsole\\SearchCommand.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\SearchCommand.cs",
-              "RelativeToolTip": "VMemModifierConsole\\SearchCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T21:32:33.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\MainWindow.axaml.cs",
@@ -314,20 +231,215 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\MainWindow.axaml",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\MainWindow.axaml",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\MainWindow.axaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "VMemModifierConsole.csproj",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\VMemModifierConsole.csproj",
+              "RelativeDocumentMoniker": "VMemModifierConsole\\VMemModifierConsole.csproj",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\VMemModifierConsole.csproj",
+              "RelativeToolTip": "VMemModifierConsole\\VMemModifierConsole.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-03T21:48:53.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReadDialog.axaml",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ReadDialog.axaml",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ReadDialog.axaml",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ReadDialog.axaml",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\ReadDialog.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-04T13:40:08.987Z",
+              "WhenOpened": "2025-11-03T22:48:13.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorDialog.axaml",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-06T01:11:57.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VMemManager.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierCore\\VMemManager.cs",
+              "RelativeDocumentMoniker": "VMemModifierCore\\VMemManager.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierCore\\VMemManager.cs",
+              "RelativeToolTip": "VMemModifierCore\\VMemManager.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwD8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:35:07.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SearchDialog.axaml",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-03T22:47:09.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VMemModifireConsole.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\VMemModifireConsole.cs",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\VMemModifireConsole.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\VMemModifireConsole.cs",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\VMemModifireConsole.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:29:33.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ToolBar.axaml.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml.cs",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml.cs",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwG8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T22:20:34.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ToolBar.axaml",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\ToolBar.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-04T12:52:11.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HelpFile.txt",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\Resources\\HelpFile.txt",
+              "RelativeDocumentMoniker": "VMemModifierConsole\\Resources\\HelpFile.txt",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\Resources\\HelpFile.txt",
+              "RelativeToolTip": "VMemModifierConsole\\Resources\\HelpFile.txt",
+              "ViewState": "AgIAAJcAAAAAAAAAAAArwKwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-03T22:48:46.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "InjectCommand.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\InjectCommand.cs",
+              "RelativeDocumentMoniker": "VMemModifierConsole\\InjectCommand.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\InjectCommand.cs",
+              "RelativeToolTip": "VMemModifierConsole\\InjectCommand.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:28:27.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WriteDialog.axaml.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml.cs",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml.cs",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwEoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T12:53:03.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OutputControl.axaml",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\OutputControl.axaml",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\OutputControl.axaml",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\OutputControl.axaml",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\OutputControl.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-03T22:07:28.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorDialog.axaml.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml.cs",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml.cs",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T00:35:28.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SearchDialog.axaml.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml.cs",
+              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml.cs",
+              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\SearchDialog.axaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAcwEQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:27:29.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UnitTests",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\UnitTests\\UnitTests.csproj",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests.csproj",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\UnitTests\\UnitTests.csproj",
+              "RelativeToolTip": "UnitTests\\UnitTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-04T21:44:33.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SearchCommand.cs",
+              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\SearchCommand.cs",
+              "RelativeDocumentMoniker": "VMemModifierConsole\\SearchCommand.cs",
+              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\SearchCommand.cs",
+              "RelativeToolTip": "VMemModifierConsole\\SearchCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:32:33.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "IdListControl.axaml.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\IdListControl.axaml.cs",
               "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\IdListControl.axaml.cs",
@@ -340,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "IdListElementControl.axaml.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\IdListElementControl.axaml.cs",
               "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\IdListElementControl.axaml.cs",
@@ -353,20 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ReadDialog.axaml",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ReadDialog.axaml",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ReadDialog.axaml",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ReadDialog.axaml",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\ReadDialog.axaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-03T22:48:13.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "TestCore.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\UnitTests\\TestCore.cs",
               "RelativeDocumentMoniker": "UnitTests\\TestCore.cs",
@@ -379,20 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ErrorDialog.axaml.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml.cs",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml.cs",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\ErrorDialog.axaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T00:35:28.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "ReadDialog.axaml.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ReadDialog.axaml.cs",
               "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ReadDialog.axaml.cs",
@@ -405,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "IdListElementControl.axaml",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\IdListElementControl.axaml",
               "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\IdListElementControl.axaml",
@@ -418,33 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "WriteDialog.axaml",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\WriteDialog.axaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-04T12:53:03.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "VMemModifireConsole.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\VMemModifireConsole.cs",
-              "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\VMemModifireConsole.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\VMemModifireConsole.cs",
-              "RelativeToolTip": "VMemModifierGUI\\VMemModifierGUI\\VMemModifireConsole.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAhwCIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T21:29:33.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "VMemModifierGUI.WriteDialog.g.cs",
               "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\VSGeneratedDocuments\\2458a179-4722-53e0-4529-843bdb416c0c\\VMemModifierGUI.WriteDialog.g.cs",
               "ToolTip": "VMemModifierGUI.WriteDialog.g.cs [\u0441\u043E\u0437\u0434\u0430\u043D \u0433\u0435\u043D\u0435\u0440\u0430\u0442\u043E\u0440\u043E\u043C Avalonia.Generators.NameGenerator.AvaloniaNameSourceGenerator]",
@@ -455,32 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "WriteCommand.cs",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\WriteCommand.cs",
-              "RelativeDocumentMoniker": "VMemModifierConsole\\WriteCommand.cs",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\WriteCommand.cs",
-              "RelativeToolTip": "VMemModifierConsole\\WriteCommand.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T00:14:41.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "VMemModifierConsole.csproj",
-              "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\VMemModifierConsole.csproj",
-              "RelativeDocumentMoniker": "VMemModifierConsole\\VMemModifierConsole.csproj",
-              "ToolTip": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\VMemModifierConsole.csproj",
-              "RelativeToolTip": "VMemModifierConsole\\VMemModifierConsole.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-03T21:48:53.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "VMemStreamNative.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierCore\\VMemStreamNative.cs",
               "RelativeDocumentMoniker": "VMemModifierCore\\VMemStreamNative.cs",
@@ -492,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "VMemStream.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierCore\\VMemStream.cs",
               "RelativeDocumentMoniker": "VMemModifierCore\\VMemStream.cs",
@@ -504,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "ReadCommand.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierConsole\\ReadCommand.cs",
               "RelativeDocumentMoniker": "VMemModifierConsole\\ReadCommand.cs",
@@ -516,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ICommandDialog.cs",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\ICommandDialog.cs",
               "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\ICommandDialog.cs",
@@ -528,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "VMemModifierConsole.exe",
               "DocumentMoniker": "D:\\code\\projects\\VMemReader\\VMemModifierGUI\\VMemModifierGUI\\VMemModifierConsole.exe",
               "RelativeDocumentMoniker": "VMemModifierGUI\\VMemModifierGUI\\VMemModifierConsole.exe",

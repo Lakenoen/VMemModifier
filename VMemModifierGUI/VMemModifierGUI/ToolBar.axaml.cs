@@ -13,6 +13,19 @@ namespace VMemModifierGUI;
 
 public partial class ToolBar : UserControl
 {
+
+    private static FilePickerFileType DLL_TYPE = new FilePickerFileType("Dll")
+    {
+        Patterns = new[] { "*.dll" },
+        AppleUniformTypeIdentifiers = new[] { "com.microsoft.windows-dynamic-link-library" },
+        MimeTypes = new[] { "application/x-ms-ne-executable" }
+    };
+    private static FilePickerFileType EXE_TYPE = new FilePickerFileType("Exe")
+    {
+        Patterns = new[] { "*.exe" },
+        AppleUniformTypeIdentifiers = new[] { "com.microsoft.windows-executable" },
+        MimeTypes = new[] { "application/x-dosexec" }
+    };
     public ToolBar()
     {
         InitializeComponent();
@@ -43,12 +56,15 @@ public partial class ToolBar : UserControl
         if (button.Content.Equals("Create"))
         {
             var topLevel = TopLevel.GetTopLevel(this);
-            var file = topLevel!.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
+            var files = topLevel!.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
             {
-                Title = "Open Text File",
-                AllowMultiple = false
-            }).Result.First();
-            string path = file.Path.AbsolutePath;
+                Title = "Select executable file",
+                AllowMultiple = false,
+                FileTypeFilter = new[] { EXE_TYPE }
+            }).Result;
+            if (files.Count == 0)
+                return;
+            string path = files.First().Path.AbsolutePath;
             Process proc = Process.Start(path);
             return;
         }
@@ -88,18 +104,24 @@ public partial class ToolBar : UserControl
                 new ErrorDialog("Not chosen the target process").ShowDialog(WindowManager<MainWindow>.Instance.Value!);
                 return;
             }
-            var topLevel = TopLevel.GetTopLevel(this);
-            var file = topLevel!.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
-            {
-                Title = "Open Text File",
-                AllowMultiple = false
-            }).Result.First();
-            string pathToDll = file.Path.AbsolutePath;
-            (outputItem.Content as TextBox)!.Text = VMemModifierConsole.Exec(
-                    "inject",
-                    WindowManager<OutputControl>.Instance.Value?.CurrentProcess.ToString()!,
-                    $"\"{pathToDll}\""
-                    );
+            if(TopLevel.GetTopLevel(this) is Window topLevel){
+                var files = topLevel!.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
+                {
+                    Title = "Select Dll",
+                    AllowMultiple = false,
+                    FileTypeFilter = new[] { DLL_TYPE }
+                }).Result;
+
+                if (files.Count == 0)
+                    return;
+
+                string pathToDll = files.First().Path.AbsolutePath;
+                (outputItem.Content as TextBox)!.Text = VMemModifierConsole.Exec(
+                        "inject",
+                        WindowManager<OutputControl>.Instance.Value?.CurrentProcess.Id.ToString()!,
+                        $"\"{pathToDll}\""
+                        );
+            }
         }
         
     }

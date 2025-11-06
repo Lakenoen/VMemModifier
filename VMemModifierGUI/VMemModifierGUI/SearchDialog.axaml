@@ -6,6 +6,7 @@
 		Width = "640"
 		Height ="360"
         x:Class="VMemModifierGUI.SearchDialog"
+		Icon="/Assets/search.png"
         Title="Search">
 		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="25">
 			<StackPanel Orientation="Horizontal" Spacing="10">

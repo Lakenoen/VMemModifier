@@ -7,6 +7,7 @@
 		Width = "640"
 		Height ="360"
         x:Class="VMemModifierGUI.WriteDialog"
+		Icon="/Assets/write.png"
         Title="WriteDialog">
 	<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="25">
 		<StackPanel Orientation="Horizontal" Spacing="10">

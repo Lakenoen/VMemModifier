@@ -6,6 +6,7 @@
 		Width = "640"
 		Height ="360"
         x:Class="VMemModifierGUI.ReadDialog"
+		Icon="/Assets/read.png"
         Title="Read">
 	<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="25">
 		<StackPanel Orientation="Horizontal" Spacing="10">

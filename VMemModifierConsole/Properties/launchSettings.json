@@ -2,7 +2,7 @@
   "profiles": {
     "VMemReaderConsole": {
       "commandName": "Project",
-      "commandLineArgs": "search 1084 8 -int"
+      "commandLineArgs": "help"
     }
   }
 }

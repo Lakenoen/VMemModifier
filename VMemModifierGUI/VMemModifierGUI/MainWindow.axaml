@@ -8,6 +8,7 @@
 		x:Name="MainWnd"
 		MinWidth="960"
 		MinHeight="720"
+		Icon="/Assets/logo.png"
         Title="VMemModifierGUI">
 	<Grid RowDefinitions="*,Auto,21*">
 		<Menu Grid.Row ="0">
