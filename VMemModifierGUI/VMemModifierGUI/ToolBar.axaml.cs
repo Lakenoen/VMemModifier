@@ -47,7 +47,12 @@ public partial class ToolBar : UserControl
                 }
                 catch (Exception)
                 {
+                    
+                }
+                finally
+                {
                     target?.Kill();
+                    CloseIdBox.Text = string.Empty;
                 }
             }
             return;
