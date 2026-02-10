@@ -5,6 +5,7 @@
 ![Static Badge](https://img.shields.io/badge/x64-white)
 ![Static Badge](https://img.shields.io/badge/CMake-orange?label=build)
 ![Static Badge](https://img.shields.io/badge/Windows-red?label=platform)
+![Static Badge](https://img.shields.io/badge/Aot-%2300BFFF)
 
 ## Description
 An application for searching, reading and writing to virtual memory, as well as for dll injection (Windows Only).
